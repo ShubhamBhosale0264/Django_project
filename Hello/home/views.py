@@ -1,7 +1,10 @@
-from django.shortcuts import render, HttpResponse
 from datetime import datetime
-from home.models import Contact
+
 from django.contrib import messages
+from django.shortcuts import HttpResponse, render
+
+from home.models import Contact
+
 
 # Create your views here.
 def index(request):
